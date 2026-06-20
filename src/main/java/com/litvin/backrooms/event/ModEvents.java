@@ -18,6 +18,7 @@ public class ModEvents {
         event.put(EntityInit.BACTERIA.get(), BacteriaEntity.createAttributes().build());
         event.put(EntityInit.SMILER.get(), com.litvin.backrooms.entity.SmilerEntity.createAttributes().build());
         event.put(EntityInit.SKIN_STEALER.get(), com.litvin.backrooms.entity.SkinStealerEntity.createAttributes().build());
+        event.put(EntityInit.DEATH_RAT.get(), com.litvin.backrooms.entity.custom.DeathRatEntity.createAttributes().build());
     }
 
     @SubscribeEvent
@@ -53,3 +54,4 @@ public class ModEvents {
         });
     }
 }
+

@@ -19,6 +19,7 @@ public class ClientModEvents {
         event.registerEntityRenderer(EntityInit.BACTERIA.get(), BacteriaRenderer::new);
         event.registerEntityRenderer(EntityInit.SMILER.get(), com.litvin.backrooms.entity.client.SmilerRenderer::new);
         event.registerEntityRenderer(EntityInit.SKIN_STEALER.get(), com.litvin.backrooms.entity.client.SkinStealerRenderer::new);
+        event.registerEntityRenderer(EntityInit.DEATH_RAT.get(), com.litvin.backrooms.entity.client.DeathRatRenderer::new);
     }
 
     @SubscribeEvent
@@ -28,3 +29,4 @@ public class ClientModEvents {
         event.registerAbove(VanillaGuiOverlay.EXPERIENCE_BAR.id(), "vhs_hud", com.litvin.backrooms.client.VhsHudOverlay.INSTANCE);
     }
 }
+

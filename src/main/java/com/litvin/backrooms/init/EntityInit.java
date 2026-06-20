@@ -28,4 +28,7 @@ public class EntityInit {
             () -> EntityType.Builder.of(com.litvin.backrooms.entity.SkinStealerEntity::new, MobCategory.MONSTER)
                     .sized(0.6f, 1.9f)
                     .build(new ResourceLocation(BackroomsMod.MODID, "skin_stealer").toString()));
+    public static final net.minecraft.client.model.geom.ModelLayerLocation DEATH_RAT_LAYER = new net.minecraft.client.model.geom.ModelLayerLocation(new ResourceLocation(BackroomsMod.MODID, "death_rat"), "main");
+    public static final RegistryObject<EntityType<com.litvin.backrooms.entity.custom.DeathRatEntity>> DEATH_RAT = ENTITIES.register("death_rat", () -> EntityType.Builder.of(com.litvin.backrooms.entity.custom.DeathRatEntity::new, MobCategory.MONSTER).sized(0.5f, 0.5f).build(new ResourceLocation(BackroomsMod.MODID, "death_rat").toString()));
 }
+

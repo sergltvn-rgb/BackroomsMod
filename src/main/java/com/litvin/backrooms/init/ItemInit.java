@@ -167,7 +167,9 @@ public class ItemInit {
     public static final RegistryObject<Item> PORTAL_BLOCK = ITEMS.register("portal_block", () -> new net.minecraft.world.item.BlockItem(BlockInit.PORTAL_BLOCK.get(), new net.minecraft.world.item.Item.Properties()));
     public static final RegistryObject<Item> POWER_POLE = ITEMS.register("power_pole", () -> new net.minecraft.world.item.BlockItem(BlockInit.POWER_POLE.get(), new net.minecraft.world.item.Item.Properties()));
     public static final RegistryObject<Item> POWER_POLE_TOP = ITEMS.register("power_pole_top", () -> new net.minecraft.world.item.BlockItem(BlockInit.POWER_POLE_TOP.get(), new net.minecraft.world.item.Item.Properties()));
+    public static final RegistryObject<net.minecraft.world.item.Item> DEATH_RAT_SPAWN_EGG = ITEMS.register("death_rat_spawn_egg", () -> new net.minecraftforge.common.ForgeSpawnEggItem(EntityInit.DEATH_RAT, 0x1A1A1A, 0x590000, new net.minecraft.world.item.Item.Properties()));
 }
+
 
 
 
