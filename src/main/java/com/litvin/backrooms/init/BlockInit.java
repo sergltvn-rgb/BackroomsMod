@@ -127,7 +127,10 @@ public class BlockInit {
     public static final RegistryObject<Block> POOLS_WALL = BLOCKS.register("pools_wall", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     public static final RegistryObject<Block> PORTAL_BLOCK = BLOCKS.register("portal_block", () -> new com.litvin.backrooms.block.PortalBlock(net.minecraft.world.level.block.state.BlockBehaviour.Properties.copy(net.minecraft.world.level.block.Blocks.IRON_DOOR)));
+    public static final RegistryObject<Block> POWER_POLE = BLOCKS.register("power_pole", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().sound(SoundType.METAL)));
+    public static final RegistryObject<Block> POWER_POLE_TOP = BLOCKS.register("power_pole_top", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion().sound(SoundType.METAL)));
 }
+
 
 
 

@@ -165,7 +165,10 @@ public class ItemInit {
     public static final RegistryObject<Item> BOTTLES = ITEMS.register("bottles", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> PORTAL_BLOCK = ITEMS.register("portal_block", () -> new net.minecraft.world.item.BlockItem(BlockInit.PORTAL_BLOCK.get(), new net.minecraft.world.item.Item.Properties()));
+    public static final RegistryObject<Item> POWER_POLE = ITEMS.register("power_pole", () -> new net.minecraft.world.item.BlockItem(BlockInit.POWER_POLE.get(), new net.minecraft.world.item.Item.Properties()));
+    public static final RegistryObject<Item> POWER_POLE_TOP = ITEMS.register("power_pole_top", () -> new net.minecraft.world.item.BlockItem(BlockInit.POWER_POLE_TOP.get(), new net.minecraft.world.item.Item.Properties()));
 }
+
 
 
 
