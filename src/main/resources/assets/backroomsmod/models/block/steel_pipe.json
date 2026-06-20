@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "backroomsmod:block/steel_pipe",
+    "side": "backroomsmod:block/steel_pipe"
+  }
+}

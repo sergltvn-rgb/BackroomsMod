@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "backroomsmod:block/drawn_wallpaper" },
+    "facing=east":  { "model": "backroomsmod:block/drawn_wallpaper", "y": 90 },
+    "facing=south": { "model": "backroomsmod:block/drawn_wallpaper", "y": 180 },
+    "facing=west":  { "model": "backroomsmod:block/drawn_wallpaper", "y": 270 }
+  }
+}

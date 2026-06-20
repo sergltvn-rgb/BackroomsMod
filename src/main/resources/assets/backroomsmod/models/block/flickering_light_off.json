@@ -1,0 +1,7 @@
+{
+  "comment": "Погасшее состояние мигающей лампы. Пока использует ту же текстуру, что и fluorescent_light. При желании замените на отдельную тусклую текстуру backroomsmod:block/flickering_light_off.",
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "backroomsmod:block/fluorescent_light"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "backroomsmod:block/steel_pipe" },
+    "axis=z": { "model": "backroomsmod:block/steel_pipe", "x": 90 },
+    "axis=x": { "model": "backroomsmod:block/steel_pipe", "x": 90, "y": 90 }
+  }
+}

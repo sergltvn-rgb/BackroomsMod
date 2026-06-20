@@ -1,0 +1,41 @@
+{
+    "temperature":  0.5,
+    "downfall":  0.0,
+    "has_precipitation":  false,
+    "temperature_modifier":  "none",
+    "effects":  {
+                    "fog_color":  12638463,
+                    "water_color":  4159204,
+                    "water_fog_color":  329011,
+                    "sky_color":  7907327,
+                    "foliage_color":  10387789,
+                    "grass_color":  9470285,
+                    "ambient_sound":  "minecraft:ambient.basalt_deltas.loop",
+                    "ambient_additions":  {
+                                              "sound":  "backroomsmod:ambient_creak",
+                                              "tick_chance":  0.005
+                                          }
+                },
+    "spawners":  {
+                     "monster":  [
+                                     {
+                                         "type":  "backroomsmod:smiler",
+                                         "weight":  15,
+                                         "minCount":  1,
+                                         "maxCount":  2
+                                     }
+                                 ]
+                 },
+    "spawn_costs":  {
+                        "backroomsmod:smiler":  {
+                                                    "energy_budget":  0.12,
+                                                    "charge":  1.0
+                                                }
+                    },
+    "carvers":  {
+
+                },
+    "features":  [
+
+                 ]
+}

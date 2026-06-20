@@ -1,0 +1,45 @@
+{
+  "textures": {
+    "particle": "minecraft:block/crying_obsidian",
+    "bedrock": "minecraft:block/bedrock",
+    "obsidian": "minecraft:block/crying_obsidian",
+    "portal": "minecraft:block/nether_portal"
+  },
+  "elements": [
+    {
+      "from": [1, 1, 1], "to": [15, 15, 15],
+      "faces": {
+        "down":  {"texture": "#bedrock"},
+        "up":    {"texture": "#bedrock"},
+        "north": {"texture": "#bedrock"},
+        "south": {"texture": "#bedrock"},
+        "west":  {"texture": "#bedrock"},
+        "east":  {"texture": "#bedrock"}
+      }
+    },
+    {
+      "from": [-1, 2, 4], "to": [17, 14, 12],
+      "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": 45},
+      "faces": {
+        "down":  {"texture": "#obsidian"},
+        "up":    {"texture": "#obsidian"},
+        "north": {"texture": "#obsidian"},
+        "south": {"texture": "#obsidian"},
+        "west":  {"texture": "#obsidian"},
+        "east":  {"texture": "#obsidian"}
+      }
+    },
+    {
+      "from": [4, -1, 2], "to": [12, 17, 14],
+      "rotation": {"origin": [8, 8, 8], "axis": "z", "angle": 45},
+      "faces": {
+        "down":  {"texture": "#portal"},
+        "up":    {"texture": "#portal"},
+        "north": {"texture": "#portal"},
+        "south": {"texture": "#portal"},
+        "west":  {"texture": "#portal"},
+        "east":  {"texture": "#portal"}
+      }
+    }
+  ]
+}

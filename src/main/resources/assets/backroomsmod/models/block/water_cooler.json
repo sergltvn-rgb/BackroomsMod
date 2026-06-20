@@ -1,0 +1,88 @@
+{
+  "textures": {
+    "particle": "minecraft:block/white_concrete",
+    "white": "minecraft:block/white_concrete",
+    "glass": "minecraft:block/light_blue_stained_glass",
+    "blue": "minecraft:block/blue_concrete",
+    "dark": "minecraft:block/black_concrete",
+    "red": "minecraft:block/red_concrete"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 3], "to": [13, 8, 13],
+      "faces": {
+        "down":  {"texture": "#white"},
+        "up":    {"texture": "#white"},
+        "north": {"texture": "#white"},
+        "south": {"texture": "#white"},
+        "west":  {"texture": "#white"},
+        "east":  {"texture": "#white"}
+      }
+    },
+    {
+      "from": [4, 9, 4], "to": [12, 15, 12],
+      "faces": {
+        "down":  {"texture": "#glass"},
+        "up":    {"texture": "#glass"},
+        "north": {"texture": "#glass"},
+        "south": {"texture": "#glass"},
+        "west":  {"texture": "#glass"},
+        "east":  {"texture": "#glass"}
+      }
+    },
+    {
+      "from": [5, 8, 5], "to": [11, 9, 11],
+      "faces": {
+        "down":  {"texture": "#blue"},
+        "up":    {"texture": "#blue"},
+        "north": {"texture": "#blue"},
+        "south": {"texture": "#blue"},
+        "west":  {"texture": "#blue"},
+        "east":  {"texture": "#blue"}
+      }
+    },
+    {
+      "from": [5.5, 15, 5.5], "to": [10.5, 16, 10.5],
+      "faces": {
+        "down":  {"texture": "#blue"},
+        "up":    {"texture": "#blue"},
+        "north": {"texture": "#blue"},
+        "south": {"texture": "#blue"},
+        "west":  {"texture": "#blue"},
+        "east":  {"texture": "#blue"}
+      }
+    },
+    {
+      "from": [4.5, 4.5, 2.8], "to": [11.5, 7.5, 3.0],
+      "faces": {
+        "north": {"texture": "#dark"},
+        "up":    {"texture": "#dark"},
+        "down":  {"texture": "#dark"},
+        "west":  {"texture": "#dark"},
+        "east":  {"texture": "#dark"}
+      }
+    },
+    {
+      "from": [5.5, 6.5, 2.4], "to": [6.5, 7.5, 2.8],
+      "faces": {
+        "north": {"texture": "#red"},
+        "south": {"texture": "#red"},
+        "up":    {"texture": "#red"},
+        "down":  {"texture": "#red"},
+        "west":  {"texture": "#red"},
+        "east":  {"texture": "#red"}
+      }
+    },
+    {
+      "from": [9.5, 6.5, 2.4], "to": [10.5, 7.5, 2.8],
+      "faces": {
+        "north": {"texture": "#blue"},
+        "south": {"texture": "#blue"},
+        "up":    {"texture": "#blue"},
+        "down":  {"texture": "#blue"},
+        "west":  {"texture": "#blue"},
+        "east":  {"texture": "#blue"}
+      }
+    }
+  ]
+}

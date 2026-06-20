@@ -1,0 +1,73 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.hazmat_armor",
+        "texture_width": 64,
+        "texture_height": 64,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2,
+        "visible_bounds_offset": [0, 1.5, 0]
+      },
+      "bones": [
+        {
+          "name": "armorHead",
+          "pivot": [0, 24, 0],
+          "cubes": [
+            {"origin": [-4.5, 24, -4.5], "size": [9, 9, 9], "uv": [0, 0], "inflate": 0.5}
+          ]
+        },
+        {
+          "name": "armorBody",
+          "pivot": [0, 24, 0],
+          "cubes": [
+            {"origin": [-4.5, 12, -2.5], "size": [9, 12, 5], "uv": [16, 16], "inflate": 0.6}
+          ]
+        },
+        {
+          "name": "armorRightArm",
+          "pivot": [-5, 22, 0],
+          "cubes": [
+            {"origin": [-7.5, 12, -2.5], "size": [5, 10, 5], "uv": [40, 16], "inflate": 0.4}
+          ]
+        },
+        {
+          "name": "armorLeftArm",
+          "pivot": [5, 22, 0],
+          "cubes": [
+            {"origin": [2.5, 12, -2.5], "size": [5, 10, 5], "uv": [40, 16], "inflate": 0.4, "mirror": true}
+          ]
+        },
+        {
+          "name": "armorRightLeg",
+          "pivot": [-1.9, 12, 0],
+          "cubes": [
+            {"origin": [-4.4, 0, -2.5], "size": [5, 12, 5], "uv": [0, 16], "inflate": 0.5}
+          ]
+        },
+        {
+          "name": "armorLeftLeg",
+          "pivot": [1.9, 12, 0],
+          "cubes": [
+            {"origin": [-0.6, 0, -2.5], "size": [5, 12, 5], "uv": [0, 16], "inflate": 0.5, "mirror": true}
+          ]
+        },
+        {
+          "name": "armorRightBoot",
+          "pivot": [-1.9, 12, 0],
+          "cubes": [
+            {"origin": [-4.4, 0, -2.5], "size": [5, 12, 5], "uv": [0, 34], "inflate": 0.55}
+          ]
+        },
+        {
+          "name": "armorLeftBoot",
+          "pivot": [1.9, 12, 0],
+          "cubes": [
+            {"origin": [-0.6, 0, -2.5], "size": [5, 12, 5], "uv": [0, 34], "inflate": 0.55, "mirror": true}
+          ]
+        }
+      ]
+    }
+  ]
+}

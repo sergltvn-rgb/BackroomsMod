@@ -1,0 +1,10 @@
+{
+  "type": "backroomsmod:level_3",
+  "generator": {
+    "type": "backroomsmod:level_3",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "backroomsmod:level_3_biome"
+    }
+  }
+}

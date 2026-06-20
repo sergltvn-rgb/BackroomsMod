@@ -1,0 +1,48 @@
+{
+  "fluorescent_buzz": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "backroomsmod:fluorescent_buzz",
+        "stream": true
+      }
+    ]
+  },
+  "ambient_vhs": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "backroomsmod:ambient_vhs",
+        "stream": true
+      }
+    ]
+  },
+  "bacteria_scream": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "backroomsmod:bacteria_scream",
+        "stream": false
+      }
+    ]
+  },
+  "lamp_flicker": {
+    "category": "block",
+    "sounds": [
+      "minecraft:block/redstone_torch/burnout"
+    ]
+  },
+  "ambient_creak": {
+    "category": "ambient",
+    "sounds": [
+      "minecraft:block/iron_door/close",
+      "minecraft:entity/iron_golem/repair"
+    ]
+  },
+  "ambient_steps": {
+    "category": "ambient",
+    "sounds": [
+      "minecraft:entity/zombie/step"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "lit=true,broken=false":  { "model": "backroomsmod:block/flickering_light" },
+    "lit=false,broken=false": { "model": "backroomsmod:block/flickering_light_off" },
+    "lit=true,broken=true":   { "model": "backroomsmod:block/broken_light" },
+    "lit=false,broken=true":  { "model": "backroomsmod:block/broken_light" }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "backroomsmod:block/ceiling_tile"
+  }
+}

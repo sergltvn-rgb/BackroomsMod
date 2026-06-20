@@ -1,0 +1,89 @@
+{
+  "textures": {
+    "particle": "minecraft:block/polished_andesite",
+    "metal": "minecraft:block/polished_andesite",
+    "dark": "minecraft:block/black_concrete"
+  },
+  "elements": [
+    {
+      "from": [0, 15, 0], "to": [2, 16, 16],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "up":    {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [14, 15, 0], "to": [16, 16, 16],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "up":    {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [2, 15, 0], "to": [14, 16, 2],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "up":    {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [2, 15, 14], "to": [14, 16, 16],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "up":    {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [4, 15.2, 2], "to": [5, 15.8, 14],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [7, 15.2, 2], "to": [8, 15.8, 14],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [10, 15.2, 2], "to": [11, 15.8, 14],
+      "faces": {
+        "down":  {"texture": "#metal"},
+        "north": {"texture": "#metal"},
+        "south": {"texture": "#metal"},
+        "west":  {"texture": "#metal"},
+        "east":  {"texture": "#metal"}
+      }
+    },
+    {
+      "from": [2, 15.9, 2], "to": [14, 16, 14],
+      "faces": {
+        "down": {"texture": "#dark"}
+      }
+    }
+  ]
+}

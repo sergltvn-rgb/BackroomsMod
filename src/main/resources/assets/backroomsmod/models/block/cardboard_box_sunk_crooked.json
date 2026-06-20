@@ -1,0 +1,20 @@
+{
+  "textures": {
+    "particle": "minecraft:block/stripped_spruce_log",
+    "cardboard": "minecraft:block/stripped_spruce_log"
+  },
+  "elements": [
+    {
+      "from": [1, -8, 1], "to": [15, 6, 15],
+      "rotation": {"origin": [8, 8, 8], "axis": "y", "angle": 22.5},
+      "faces": {
+        "down":  {"texture": "#cardboard"},
+        "up":    {"texture": "#cardboard"},
+        "north": {"texture": "#cardboard"},
+        "south": {"texture": "#cardboard"},
+        "west":  {"texture": "#cardboard"},
+        "east":  {"texture": "#cardboard"}
+      }
+    }
+  ]
+}

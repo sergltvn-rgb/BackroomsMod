@@ -1,0 +1,10 @@
+{
+  "type": "backroomsmod:level_2",
+  "generator": {
+    "type": "backroomsmod:level_2_chunk_generator",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "backroomsmod:level_2_biome"
+    }
+  }
+}

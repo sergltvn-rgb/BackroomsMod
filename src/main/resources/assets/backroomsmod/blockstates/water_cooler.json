@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,glitch=0": { "model": "backroomsmod:block/water_cooler" },
+    "facing=east,glitch=0": { "model": "backroomsmod:block/water_cooler", "y": 90 },
+    "facing=south,glitch=0": { "model": "backroomsmod:block/water_cooler", "y": 180 },
+    "facing=west,glitch=0": { "model": "backroomsmod:block/water_cooler", "y": 270 },
+
+    "facing=north,glitch=1": { "model": "backroomsmod:block/water_cooler" },
+    "facing=east,glitch=1": { "model": "backroomsmod:block/water_cooler", "y": 90 },
+    "facing=south,glitch=1": { "model": "backroomsmod:block/water_cooler", "y": 180 },
+    "facing=west,glitch=1": { "model": "backroomsmod:block/water_cooler", "y": 270 },
+
+    "facing=north,glitch=2": { "model": "backroomsmod:block/water_cooler" },
+    "facing=east,glitch=2": { "model": "backroomsmod:block/water_cooler", "y": 90 },
+    "facing=south,glitch=2": { "model": "backroomsmod:block/water_cooler", "y": 180 },
+    "facing=west,glitch=2": { "model": "backroomsmod:block/water_cooler", "y": 270 },
+
+    "facing=north,glitch=3": { "model": "backroomsmod:block/water_cooler" },
+    "facing=east,glitch=3": { "model": "backroomsmod:block/water_cooler", "y": 90 },
+    "facing=south,glitch=3": { "model": "backroomsmod:block/water_cooler", "y": 180 },
+    "facing=west,glitch=3": { "model": "backroomsmod:block/water_cooler", "y": 270 }
+  }
+}
