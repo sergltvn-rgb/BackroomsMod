@@ -1,0 +1,32 @@
+{
+  "parent": "mbackrooms:backrooms/leveltwo/whats_in_this_place",
+  "criteria": {
+    "entered_level_one_teleporter": {
+      "conditions": {
+        "block": "mbackrooms:level_one_teleporter"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "That’s not the exit… not really."
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mbackrooms:one_yellow_wall"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "The Wrong Way Out"
+    }
+  },
+  "requirements": [
+    [
+      "entered_level_one_teleporter"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

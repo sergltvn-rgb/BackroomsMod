@@ -1,0 +1,42 @@
+{
+  "parent": "mbackrooms:backrooms/root",
+  "criteria": {
+    "find_cardboard_boxes": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mbackrooms:level_zero_room_boxes"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "When reality fades, cardboard remains."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:cardboard_box"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "What's in the Box ?"
+    }
+  },
+  "requirements": [
+    [
+      "find_cardboard_boxes"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

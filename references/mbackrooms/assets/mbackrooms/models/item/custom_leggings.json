@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ton_mod:item/custom_leggings"
+  }
+}

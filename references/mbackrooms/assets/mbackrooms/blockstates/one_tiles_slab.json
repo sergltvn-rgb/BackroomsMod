@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mbackrooms:block/one_tiles_slab"
+    },
+    "type=double": {
+      "model": "mbackrooms:block/one_tiles"
+    },
+    "type=top": {
+      "model": "mbackrooms:block/one_tiles_slab_top"
+    }
+  }
+}

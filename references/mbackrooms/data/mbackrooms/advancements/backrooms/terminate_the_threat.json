@@ -1,0 +1,40 @@
+{
+  "parent": "mbackrooms:backrooms/power_source",
+  "criteria": {
+    "kill_bed": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "mbackrooms:bed"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Kill the Lab robot. It wasn’t friendly."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:high_capacity_hard_drive"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Terminate the Threat"
+    }
+  },
+  "requirements": [
+    [
+      "kill_bed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

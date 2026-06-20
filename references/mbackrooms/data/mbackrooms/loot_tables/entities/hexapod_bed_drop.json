@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [],
+          "name": "mbackrooms:high_capacity_hard_drive"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "mbackrooms:entities/hexapod_bed_drop"
+}

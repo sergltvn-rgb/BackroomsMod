@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/stolen_tech",
+  "criteria": {
+    "lab_detector": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:lab_detector"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Something's pinging from deeper inside."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:lab_detector"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Seeking Signals"
+    }
+  },
+  "requirements": [
+    [
+      "lab_detector"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

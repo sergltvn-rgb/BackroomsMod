@@ -1,0 +1,96 @@
+{
+  "providers": [
+    {
+      "type": "reference",
+      "id": "minecraft:include/space"
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/discord.png",
+      "ascent": 7,
+      "chars": [
+        "\u0021"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/gnegnegne.png",
+      "ascent": 7,
+      "chars": [
+        "\u002B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/creator.png",
+      "ascent": 7,
+      "chars": [
+        "\u002A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/curseforge.png",
+      "ascent": 7,
+      "chars": [
+        "\u002C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/attention.png",
+      "ascent": 7,
+      "chars": [
+        "\u002D"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/informations.png",
+      "ascent": 7,
+      "chars": [
+        "\u002E"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/thanks.png",
+      "ascent": 7,
+      "chars": [
+        "\u002F"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/lock.png",
+      "ascent": 7,
+      "chars": [
+        "\u003A"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/cogwheel.png",
+      "ascent": 7,
+      "chars": [
+        "\u003B"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/scregnegne.png",
+      "ascent": 7,
+      "chars": [
+        "\u003C"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mbackrooms:font/theotherone.png",
+      "ascent": 7,
+      "chars": [
+        "\u003D"
+      ]
+    }
+  ]
+}

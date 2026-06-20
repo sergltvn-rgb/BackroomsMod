@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/rover"
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/rover",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/rover",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/rover",
+      "y": 270
+    }
+  }
+}

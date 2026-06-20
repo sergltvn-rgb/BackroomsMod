@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/the_makeshift_home",
+  "criteria": {
+    "zero_trophy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:zero_trophy"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "It can’t see you—but it hears everything."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:zero_trophy"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Guardian of the Gate"
+    }
+  },
+  "requirements": [
+    [
+      "zero_trophy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

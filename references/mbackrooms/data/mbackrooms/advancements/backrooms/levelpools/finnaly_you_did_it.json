@@ -1,0 +1,32 @@
+{
+  "parent": "mbackrooms:backrooms/levelpools/scubified",
+  "criteria": {
+    "entered_overworld_teleporter": {
+      "conditions": {
+        "block": "mbackrooms:over_world_teleporter"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "First time out. Everything will now looks strange to you..."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Finally, you did it."
+    }
+  },
+  "requirements": [
+    [
+      "entered_overworld_teleporter"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

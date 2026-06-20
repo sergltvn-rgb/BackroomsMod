@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/portal_marker_corner"
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/portal_marker_corner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/portal_marker_corner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/portal_marker_corner",
+      "y": 270
+    }
+  }
+}

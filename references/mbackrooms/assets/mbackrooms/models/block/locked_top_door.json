@@ -1,0 +1,23 @@
+{
+	"credit": "Made by Meulti",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "mbackrooms:block/locked_door",
+		"particle": "mbackrooms:block/locked_door"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 16, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -16, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 6, 6], "texture": "#0"},
+				"east": {"uv": [6, 8.5, 6.25, 10.5], "texture": "#0"},
+				"south": {"uv": [0, 10, 6, 12], "texture": "#0"},
+				"west": {"uv": [6.25, 8.5, 6.5, 10.5], "texture": "#0"},
+				"up": {"uv": [12.5, 4.75, 6.5, 4.5], "texture": "#0"},
+				"down": {"uv": [12.5, 4.75, 6.5, 5], "texture": "#0"}
+			}
+		}
+	]
+}

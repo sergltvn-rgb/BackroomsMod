@@ -1,0 +1,39 @@
+{
+  "parent": "mbackrooms:backrooms/seeking_signals",
+  "criteria": {
+    "charged_battery": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:battery"
+            ],
+            "nbt": "{Charge:16000}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "You feel like you're fueling something dangerous."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:battery"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Power Source"
+    }
+  },
+  "requirements": [
+    [
+      "charged_battery"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

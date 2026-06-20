@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"down": "mbackrooms:block/zero_floor",
+		"east": "mbackrooms:block/zero_bottom_wall",
+		"north": "mbackrooms:block/zero_bottom_wall",
+		"particle": "mbackrooms:block/zero_wall",
+		"south": "mbackrooms:block/zero_bottom_wall",
+		"up": "mbackrooms:block/zero_wall",
+		"west": "mbackrooms:block/zero_bottom_wall"
+	}
+}

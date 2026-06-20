@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,activated=true": { "model": "mbackrooms:block/duffle_bag_opened" },
+    "facing=north,activated=false": { "model": "mbackrooms:block/duffle_bag" },
+
+    "facing=south,activated=true": { "model": "mbackrooms:block/duffle_bag_opened", "y": 180 },
+    "facing=south,activated=false": { "model": "mbackrooms:block/duffle_bag", "y": 180 },
+
+    "facing=west,activated=true": { "model": "mbackrooms:block/duffle_bag_opened", "y": 270 },
+    "facing=west,activated=false": { "model": "mbackrooms:block/duffle_bag", "y": 270 },
+
+    "facing=east,activated=true": { "model": "mbackrooms:block/duffle_bag_opened", "y": 90 },
+    "facing=east,activated=false": { "model": "mbackrooms:block/duffle_bag", "y": 90 }
+  }
+}

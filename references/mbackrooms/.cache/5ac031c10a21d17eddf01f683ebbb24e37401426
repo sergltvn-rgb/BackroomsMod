@@ -1,0 +1,5 @@
+// 1.20.1	2025-07-23T22:27:13.8051698	Tags for minecraft:block mod id mbackrooms
+88aca1ad5a0743a87bceb2b782752e0196543a68 data/minecraft/tags/blocks/mineable/axe.json
+6e677fe860e724a0249f89e2cbaa81c77ae09597 data/minecraft/tags/blocks/mineable/pickaxe.json
+d4ff54a641a43d979297d198bd4397559d1320a2 data/minecraft/tags/blocks/needs_iron_tool.json
+41a3654edf965d6feb093387deff53886d5e1a66 data/minecraft/tags/blocks/needs_stone_tool.json

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "north=false,south=false,east=false,west=false": { "model": "mbackrooms:block/walkway_dot"},
+
+    "north=true,south=false,east=false,west=false": { "model": "mbackrooms:block/walkway", "y": 90},
+    "south=true,north=false,east=false,west=false": { "model": "mbackrooms:block/walkway", "y": 270},
+    "east=true,north=false,south=false,west=false": { "model": "mbackrooms:block/walkway"},
+    "west=true,north=false,south=false,east=false": { "model": "mbackrooms:block/walkway"},
+
+    "east=true,west=true,north=false,south=false": { "model": "mbackrooms:block/walkway"},
+    "north=true,south=true,east=false,west=false": { "model": "mbackrooms:block/walkway", "y": 90},
+
+    "north=true,east=true,south=false,west=false": { "model": "mbackrooms:block/cross_walkway"},
+    "east=true,south=true,north=false,west=false": { "model": "mbackrooms:block/cross_walkway"},
+    "south=true,west=true,north=false,east=false": { "model": "mbackrooms:block/cross_walkway"},
+    "west=true,north=true,east=false,south=false": { "model": "mbackrooms:block/cross_walkway"},
+
+    "north=true,east=true,south=true,west=false": { "model": "mbackrooms:block/cross_walkway"},
+    "east=true,south=true,west=true,north=false": { "model": "mbackrooms:block/cross_walkway"},
+    "south=true,west=true,north=true,east=false": { "model": "mbackrooms:block/cross_walkway"},
+    "west=true,north=true,east=true,south=false": { "model": "mbackrooms:block/cross_walkway"},
+
+    "north=true,east=true,south=true,west=true": { "model": "mbackrooms:block/cross_walkway" }
+  }
+}

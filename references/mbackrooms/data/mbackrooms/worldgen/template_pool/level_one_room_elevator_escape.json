@@ -1,0 +1,17 @@
+{
+  "name": "mbackrooms:level_one_room_elevator_escape",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "mbackrooms:level_one/elevator_escape_room",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

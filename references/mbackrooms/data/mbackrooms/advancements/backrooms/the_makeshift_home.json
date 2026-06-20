@@ -1,0 +1,42 @@
+{
+  "parent": "mbackrooms:backrooms/echoes_of_escape",
+  "criteria": {
+    "find_portal": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mbackrooms:level_zero_room_portal"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Another laboratory ? It seems like someone else tried to survive here..."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:mbm_door"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "The Makeshift Home"
+    }
+  },
+  "requirements": [
+    [
+      "find_portal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

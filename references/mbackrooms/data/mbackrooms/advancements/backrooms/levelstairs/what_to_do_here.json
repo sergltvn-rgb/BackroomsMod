@@ -1,0 +1,36 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/codebreaker",
+  "criteria": {
+    "level_stairs_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mbackrooms:level_stairs"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "This staircase looks endless!!!"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mbackrooms:pools_wall_stairs"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "What to do here?"
+    }
+  },
+  "requirements": [
+    [
+      "level_stairs_entered"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

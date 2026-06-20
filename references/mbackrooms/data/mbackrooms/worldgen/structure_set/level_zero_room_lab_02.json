@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "mbackrooms:level_zero_room_lab_02",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 12,
+    "spread": 20,
+    "count": 90,
+    "preferred_biomes": "mbackrooms:level_zero_biome",
+    "salt": 12,
+    "frequency_reduction_method": "default",
+    "frequency": 0.3
+  }
+}

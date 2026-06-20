@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/right_arrows",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/right_arrows",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/right_arrows",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/right_arrows",
+      "y": 90
+    }
+  }
+}

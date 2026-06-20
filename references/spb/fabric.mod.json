@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "spb-revamped",
+  "version": "1.1.7",
+  "name": "SP-Backrooms Revamped",
+  "description": "Spacepotato\u0027s Found Footage Mod",
+  "authors": [
+    "SpacePotato",
+    "Herr Chaos",
+    "MetaOne - Russian Translation"
+  ],
+  "contact": {
+    "YouTube": "https://www.youtube.com/@SpacePotatoee"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/spb-revamped/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sp.SPBRevamped"
+    ],
+    "client": [
+      "com.sp.SPBRevampedClient"
+    ],
+    "fabric-datagen": [
+      "com.sp.SPBRevampedDataGenerator"
+    ],
+    "cardinal-components": [
+      "com.sp.cca_stuff.InitializeComponents"
+    ],
+    "modmenu": [
+      "com.sp.init.ModMenuMenu"
+    ],
+    "voicechat": [
+      "com.sp.sounds.voicechat.BackroomsVoicechatPlugin"
+    ]
+  },
+  "custom": {
+    "cardinal-components": [
+      "spb-revamped:player",
+      "spb-revamped:events",
+      "spb-revamped:skw",
+      "spb-revamped:smi"
+    ],
+    "modmenu": {
+      "links": {
+        "My Youtube": "https://www.youtube.com/@SpacePotatoee",
+        "Join the Discord!": "https://discord.gg/z3sfGTdjEn"
+      },
+      "update_checker": false
+    }
+  },
+  "mixins": [
+    "spb-revamped.mixins.json"
+  ],
+  "accessWidener": "spb-revamped.accesswidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.15.11",
+    "minecraft": "~1.20.1",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*",
+    "fabric-key-binding-api-v1": "*",
+    "voicechat": "\u003e\u003d1.20.1-2.4.32",
+    "geckolib": "\u003e\u003d4.4.9"
+  },
+  "suggests": {
+    "mod-menu": "*"
+  },
+  "breaks": {
+    "sodium": "*",
+    "create": "*",
+    "iris": "*",
+    "optifine": "*",
+    "lithium": "*",
+    "phosphor": "*",
+    "indium": "*",
+    "modern_industrialization": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/Veil-fabric-1.20.1-1.0.0.228.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-world-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/midnightlib-1.4.1-fabric.jar"
+    }
+  ]
+}

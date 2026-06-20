@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      { "model": "mbackrooms:block/a_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/b_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/c_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/d_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/e_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/f_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/g_variant_pools_floor", "weight": 1 },
+      { "model": "mbackrooms:block/h_variant_pools_floor", "weight": 1 }
+    ]
+  }
+}

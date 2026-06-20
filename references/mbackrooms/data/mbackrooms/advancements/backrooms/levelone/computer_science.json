@@ -1,0 +1,42 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/floppy_frenzy",
+  "criteria": {
+    "find_lab_02": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mbackrooms:level_one_room_lab_02"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Find and interact with the Base terminal."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:terminal"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Computer Science !"
+    }
+  },
+  "requirements": [
+    [
+      "find_lab_02"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "face=wall,facing=north": { "model": "mbackrooms:block/one_lamp" },
+    "face=wall,facing=south": { "model": "mbackrooms:block/one_lamp", "y": 180 },
+    "face=wall,facing=west": { "model": "mbackrooms:block/one_lamp", "y": 270 },
+    "face=wall,facing=east": { "model": "mbackrooms:block/one_lamp", "y": 90 },
+
+    "face=floor,facing=north": { "model": "mbackrooms:block/one_lamp", "x": 270 },
+    "face=floor,facing=south": { "model": "mbackrooms:block/one_lamp", "x": 270, "y": 180 },
+    "face=floor,facing=west": { "model": "mbackrooms:block/one_lamp", "x": 270, "y": 270 },
+    "face=floor,facing=east": { "model": "mbackrooms:block/one_lamp", "x": 270, "y": 90 },
+
+    "face=ceiling,facing=north": { "model": "mbackrooms:block/one_lamp", "x": 90 },
+    "face=ceiling,facing=south": { "model": "mbackrooms:block/one_lamp", "x": 90, "y": 180 },
+    "face=ceiling,facing=west": { "model": "mbackrooms:block/one_lamp", "x": 90, "y": 270 },
+    "face=ceiling,facing=east": { "model": "mbackrooms:block/one_lamp", "x": 90, "y": 90 }
+  }
+}

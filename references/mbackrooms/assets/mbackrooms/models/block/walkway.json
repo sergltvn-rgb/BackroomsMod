@@ -1,0 +1,65 @@
+{
+	"credit": "Made by Meulti",
+	"textures": {
+		"0": "mbackrooms:block/zero_level",
+		"particle": "mbackrooms:block/zero_floor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 5],
+			"to": [16, 16, 11],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 8, 3, 16], "texture": "#0"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"west": {"uv": [0, 8, 3, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 8], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"ground": {
+			"rotation": [0, -90, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"gui": {
+			"rotation": [15, 45, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 9, 0.25],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"scale": [0.59, 0.59, 0.59]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0]
+		}
+	]
+}

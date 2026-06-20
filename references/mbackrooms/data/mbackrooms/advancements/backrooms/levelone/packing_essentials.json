@@ -1,0 +1,42 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/the_wrong_way_out",
+  "criteria": {
+    "find_duffle_bags": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mbackrooms:level_one_loot_area"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "The new survival containers..."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:duffle_bag"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Packing Essentials"
+    }
+  },
+  "requirements": [
+    [
+      "find_duffle_bags"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

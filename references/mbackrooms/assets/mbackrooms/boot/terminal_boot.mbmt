@@ -1,0 +1,73 @@
+Welcome to MBM-Terminal v0.9.7 //ET//10
+Initializing system components... //ET//15
+Detecting hardware... //ET//10
+CPU: PentiCore PX-233 @ 233MHz //ET//15
+RAM: 512MB Dynatek SDRAM //ET//10
+Storage devices: MagStor HDD 512GB //ET//15
+Loading kernel modules... //ET//10
+[OK] PCI Bus scanned //ET//10
+[OK] USB Controllers initialized //ET//10
+[OK] Audio subsystem started //ET//15
+Warning: Deprecated driver detected //ET//20
+Loading network stack... //ET//10
+Ethernet interface: eth0 //ET//10
+IP address assigned: 192.168.0.15 //ET//15
+Starting security services... //ET//10
+Firewall status: Active //ET//10
+User environment setup... //ET//15
+Login prompt enabled //ET//10
+System ready. Have a nice day! //ET//15
+ //ET//5
+MBM-Terminal legacy system boot //ET//10
+Memory test in progress... //ET//15
+[OK] Memory test passed //ET//10
+Checking drives... //ET//10
+[OK] MagStor HDD 40GB //ET//15
+Mounting filesystem... //ET//10
+Error: Filesystem corruption: C: //ET//20
+Attempting repair... //ET//10
+[OK] Repair successful //ET//10
+Starting background processes... //ET//15
+Loading device drivers... //ET//10
+[OK] Keyboard driver loaded //ET//10
+[OK] Mouse driver loaded //ET//10
+ //ET//5
+Initializing legacy port drivers... //ET//10
+[OK] COM1 port enabled //ET//10
+[OK] LPT1 port enabled //ET//10
+Detecting peripherals... //ET//15
+[OK] Floppy disk drive detected //ET//10
+[OK] CD-ROM drive detected //ET//15
+Checking system temperature... //ET//10
+CPU Temperature: 54°C //ET//10
+Fan speeds: 900 RPM //ET//10
+System voltage levels nominal //ET//10
+System time synced: wNTP server //ET//15
+Loading language packs... //ET//10
+[OK] English (US) loaded //ET//10
+System boot completed. //ET//15
+ //ET//5
+Please enter your login credentials: //ET//10
+ //ET//5
+Attempting network login... //ET//10
+Error: Network unreachable //ET//15
+Retrying in 5 seconds... //ET//10
+ //ET//20
+Local login accepted //ET//10
+Welcome user: admin //ET//15
+Loading user profile... //ET//10
+Setting environment variables... //ET//10
+User privileges: Administrator //ET//15
+ //ET//5
+Initializing command shell... //ET//10
+
+//ET//40
+ //ET//0
+ _    _  ___   _   _  //ET//2
+ | \_/ |  | o )  | \_/ | //ET//2
+ | \_/ |  | o \  | \_/ | //ET//2
+ |_|   |_| |___ | |_|   |_|//ET//2
+                        //ET//2
+ //ET//0
+ //ET//0
+Type 'help' for a list of commands. //ET//15

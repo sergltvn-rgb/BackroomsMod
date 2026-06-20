@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "north=false,south=false,east=false,west=false": { "model": "mbackrooms:block/one_tmarked"},
+
+    "north=true,south=false,east=false,west=false": { "model": "mbackrooms:block/one_fmarked", "y": 180},
+    "south=true,north=false,east=false,west=false": { "model": "mbackrooms:block/one_fmarked", "y": 0},
+    "east=true,north=false,south=false,west=false": { "model": "mbackrooms:block/one_fmarked", "y": 270},
+    "west=true,north=false,south=false,east=false": { "model": "mbackrooms:block/one_fmarked", "y": 90},
+
+    "east=true,west=true,north=false,south=false": { "model": "mbackrooms:block/one_wall"},
+    "north=true,south=true,east=false,west=false": { "model": "mbackrooms:block/one_wall"},
+
+    "north=true,east=true,south=false,west=false": { "model": "mbackrooms:block/one_tumarked", "y": 180},
+    "east=true,south=true,north=false,west=false": { "model": "mbackrooms:block/one_tumarked", "y": 270},
+    "south=true,west=true,north=false,east=false": { "model": "mbackrooms:block/one_tumarked", "y": 0},
+    "west=true,north=true,east=false,south=false": { "model": "mbackrooms:block/one_tumarked", "y": 90},
+
+    "north=true,east=true,south=true,west=false": { "model": "mbackrooms:block/one_wall"},
+    "east=true,south=true,west=true,north=false": { "model": "mbackrooms:block/one_wall"},
+    "south=true,west=true,north=true,east=false": { "model": "mbackrooms:block/one_wall"},
+    "west=true,north=true,east=true,south=false": { "model": "mbackrooms:block/one_wall"},
+
+    "north=true,east=true,south=true,west=true": { "model": "mbackrooms:block/one_wall"}
+  }
+}

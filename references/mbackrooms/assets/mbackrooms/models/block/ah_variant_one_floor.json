@@ -1,0 +1,44 @@
+{
+	"credit": "Made by Meulti",
+	"render_type": "minecraft:translucent",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "mbackrooms:block/a_variant_one_floor",
+		"particle": "mbackrooms:block/a_variant_one_floor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"south": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"west": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"up": {"uv": [0, 15, 1, 16], "texture": "#0"},
+				"down": {"uv": [0, 15, 1, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 16.18, 0],
+			"to": [16, 16.18, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16.25, 0]},
+			"faces": {
+				"north": {"uv": [13.1875, 15.3125, 16, 16], "texture": "#0"},
+				"east": {"uv": [13.1875, 15.3125, 16, 16], "texture": "#0"},
+				"south": {"uv": [13.1875, 15.3125, 16, 16], "texture": "#0"},
+				"west": {"uv": [13.1875, 15.3125, 16, 16], "texture": "#0"},
+				"up": {"uv": [6, 3, 9, 6], "texture": "#0"},
+				"down": {"uv": [13, 13, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 16.25, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

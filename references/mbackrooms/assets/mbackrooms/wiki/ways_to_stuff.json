@@ -1,0 +1,37 @@
+{
+  "category_name": "- Stuff -",
+  "pages": [
+    {
+      "page": "1",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "cardboard_box",
+      "title": "Cardboard Box",
+      "text_zone": "Ahh, boxes! The best (and only way) to find stuff down here. They’re present in almost all levels. Right-click on a box to obtain random loot. §7(Loots §7can §7be §7modified §7in §7the §7config §7files)§r"
+    },
+    {
+      "page": "2",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "duffle_bag",
+      "title": "Duffle Bags",
+      "text_zone": "These bags are scattered across several levels, mainly in §eLevel 1§r. They mostly contain food, useful for restoring your sanity."
+    },
+    {
+      "page": "3",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "pools_crate",
+      "title": "Wet Crates",
+      "text_zone": "These boxes can only be found in the Poolrooms. Their contents vary but are similar to those of the cardboard box. §7(Loots §7can §7be §7modified §7in §7the §7config §7files)§r"
+    },
+    {
+      "page": "4",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "armor_crate",
+      "title": "Armor Crates",
+      "text_zone": "These boxes are very useful if you want to gear up quickly. Their loot depends on the level you’re in. If you're in Level 1, you can find normal and reinforced Hazmat suits. If you're in the Pool level, you can only find Scuba Hazmat suits."
+    }
+  ]
+}

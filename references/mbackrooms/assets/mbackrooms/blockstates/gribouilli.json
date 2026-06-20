@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/gribouilli",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/gribouilli",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/gribouilli",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/gribouilli",
+      "y": 90
+    }
+  }
+}

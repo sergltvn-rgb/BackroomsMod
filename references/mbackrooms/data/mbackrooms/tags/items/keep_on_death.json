@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mbackrooms:hard_drive",
+    "mbackrooms:high_capacity_hard_drive",
+    "mbackrooms:battery",
+    "mbackrooms:lab_detector",
+    "mbackrooms:portal_detector",
+    "mbackrooms:hard_drive"
+  ]
+}

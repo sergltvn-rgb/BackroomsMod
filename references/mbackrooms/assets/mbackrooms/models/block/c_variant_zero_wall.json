@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "mbackrooms:block/c_variant_zero_wall"
+	}
+}

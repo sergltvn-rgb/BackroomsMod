@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hazmat_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:hazmat_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mbackrooms:scuba_hazmat_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hazmat_boots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mbackrooms:scuba_hazmat_boots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

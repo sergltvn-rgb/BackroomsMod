@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mbackrooms:item/high_capacity_hard_drive"
+  }
+}

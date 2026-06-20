@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "fr/meulti/mbackrooms/mixin/PhotosensitivityLoadingScreenMixin": {
+      "render": "Lnet/minecraft/client/gui/screens/LevelLoadingScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+    },
+    "fr/meulti/mbackrooms/mixin/BackroomsDeathMixin": {
+      "init": "Lnet/minecraft/client/gui/screens/DeathScreen;m_7856_()V",
+      "Lnet/minecraft/client/gui/GuiGraphics;drawCenteredString(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280653_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V",
+      "Lnet/minecraft/client/gui/GuiGraphics;pose()Lcom/mojang/blaze3d/vertex/PoseStack;": "Lnet/minecraft/client/gui/GuiGraphics;m_280168_()Lcom/mojang/blaze3d/vertex/PoseStack;",
+      "handleExitToTitleScreen": "Lnet/minecraft/client/gui/screens/DeathScreen;m_262825_()V",
+      "Lnet/minecraft/client/gui/GuiGraphics;fillGradient(IIIIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280024_(IIIIII)V",
+      "render": "Lnet/minecraft/client/gui/screens/DeathScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+    },
+    "fr/meulti/mbackrooms/mixin/ScubaMixin": {
+      "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+      "Lnet/minecraft/world/entity/LivingEntity;isInWater()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20069_()Z"
+    },
+    "fr/meulti/mbackrooms/mixin/EntityAccessor": {
+      "fallDistance": "f_19789_:F"
+    },
+    "fr/meulti/mbackrooms/mixin/F3MenuInBackroomsMixin": {
+      "getGameInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94075_()Ljava/util/List;",
+      "getSystemInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94078_()Ljava/util/List;"
+    },
+    "fr/meulti/mbackrooms/mixin/LivingEntityFallMixin": {
+      "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "fr/meulti/mbackrooms/mixin/PhotosensitivityLoadingScreenMixin": {
+        "render": "Lnet/minecraft/client/gui/screens/LevelLoadingScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+      },
+      "fr/meulti/mbackrooms/mixin/BackroomsDeathMixin": {
+        "init": "Lnet/minecraft/client/gui/screens/DeathScreen;m_7856_()V",
+        "Lnet/minecraft/client/gui/GuiGraphics;drawCenteredString(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280653_(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V",
+        "Lnet/minecraft/client/gui/GuiGraphics;pose()Lcom/mojang/blaze3d/vertex/PoseStack;": "Lnet/minecraft/client/gui/GuiGraphics;m_280168_()Lcom/mojang/blaze3d/vertex/PoseStack;",
+        "handleExitToTitleScreen": "Lnet/minecraft/client/gui/screens/DeathScreen;m_262825_()V",
+        "Lnet/minecraft/client/gui/GuiGraphics;fillGradient(IIIIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280024_(IIIIII)V",
+        "render": "Lnet/minecraft/client/gui/screens/DeathScreen;m_88315_(Lnet/minecraft/client/gui/GuiGraphics;IIF)V"
+      },
+      "fr/meulti/mbackrooms/mixin/ScubaMixin": {
+        "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+        "Lnet/minecraft/world/entity/LivingEntity;isInWater()Z": "Lnet/minecraft/world/entity/LivingEntity;m_20069_()Z"
+      },
+      "fr/meulti/mbackrooms/mixin/EntityAccessor": {
+        "fallDistance": "f_19789_:F"
+      },
+      "fr/meulti/mbackrooms/mixin/F3MenuInBackroomsMixin": {
+        "getGameInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94075_()Ljava/util/List;",
+        "getSystemInformation": "Lnet/minecraft/client/gui/components/DebugScreenOverlay;m_94078_()Ljava/util/List;"
+      },
+      "fr/meulti/mbackrooms/mixin/LivingEntityFallMixin": {
+        "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": [
+      { "model": "mbackrooms:block/one_floor", "weight": 1024 },
+      { "model": "mbackrooms:block/aa_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ab_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ac_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ad_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ae_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/af_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ag_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ah_variant_one_floor", "weight": 1 },
+      { "model": "mbackrooms:block/ai_variant_one_floor", "weight": 1 }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "category_name": "- Level 0 -",
+  "pages": [
+    {
+      "page": "1",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "zero_bottom_wall",
+      "title": "Level 0",
+      "text_zone": "Welcome to §eLevel 0§r, the beginning of your adventure! This level is a vast office made of yellow walls, and lit by a series of old flickering lamps. Beware, entities lurk here."
+    },
+    {
+      "page": "2",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "hard_drive",
+      "title": "Level 0 - First Steps",
+      "text_zone": "You can try to find an exit, but it’s going to be difficult... You’ll have to locate certain structures. First, find the abandoned lab with a rover. Destroy it (§aIron Pickaxe§r) to obtain a §dHard Drive§r."
+    },
+    {
+      "page": "3",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "detector",
+      "title": "Level 0 - Detectors !",
+      "text_zone": "With §a1 Copper Ingot§r, §a1 Gold Ingot§r and §a3 Iron Ingots§r, you can craft yourself a detector! By itself, it does nothing, but combined with a §dHard Drive§r, it might help you find something."
+    },
+    {
+      "page": "4",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "lab_detector",
+      "title": "Level 0 - Lab. Detector",
+      "text_zone": "This detector now displays coordinates leading you to the nearest experiment laboratory near you."
+    },
+    {
+      "page": "5",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "battery",
+      "title": "Level 0 - Experiment Lab",
+      "text_zone": "Abandoned? Again? In some barrels you should find a §dBattery§r. But it’s empty, to recharge it you can right click on the §dCharger Block§r in the lab. As you charge it, some entities might try to stop you…"
+    },
+    {
+      "page": "6",
+      "type": "entity",
+      "modid": "mbackrooms",
+      "path": "bed",
+      "title": "Level 0 - Experiment Lab (2)",
+      "text_zone": "With your charged §dBattery§r, you can now power the big robot inside the quilted room. Once awakened, it will attack you, kill it to obtain a §dHigh §dCapacity §dHard §dDrive§r."
+    },
+    {
+      "page": "7",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "portal_detector",
+      "title": "Level 0 - Portal Detector",
+      "text_zone": "We can finally upgrade our old §dLaboratory Detector§r! Combining a §dHigh §dCapacity §dHard §dDrive§r with either a §dDetector§r or a §dLaboratory §dDetector§r will give you a §dPortal §dDetector§r. Follow its coordinates."
+    },
+    {
+      "page": "8",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "zero_floor",
+      "title": "Level 0 - Portal Lab",
+      "text_zone": "The lab is guarded by a blind robot. Avoid it by walking and not running or jumping. To escape, jump onto the yellow and black taped floor in the center."
+    }
+  ]
+}

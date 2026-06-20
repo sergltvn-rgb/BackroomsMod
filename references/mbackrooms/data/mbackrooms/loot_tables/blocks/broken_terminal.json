@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mbackrooms:floppy_disk"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mbackrooms:blocks/broken_terminal"
+}

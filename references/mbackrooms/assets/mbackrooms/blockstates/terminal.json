@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "mbackrooms:block/terminal_model"},
+    "facing=east": {"model": "mbackrooms:block/terminal_model", "y": 90},
+    "facing=south": {"model": "mbackrooms:block/terminal_model", "y": 180},
+    "facing=west": {"model": "mbackrooms:block/terminal_model", "y": 270}
+  }
+}

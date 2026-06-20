@@ -1,0 +1,57 @@
+{
+  "category_name": "- Sanity -",
+  "pages": [
+    {
+      "page": "1",
+      "type": "image",
+      "modid": "mbackrooms",
+      "path": "brain.png",
+      "title": "Sanity",
+      "text_zone": "If you stay in this place for too long, you WILL go crazy. Luckily, in the boxes you can find food, it’s your solution to preserve your mental health. You can check your sanity level in your inventory."
+    },
+    {
+      "page": "2",
+      "type": "image",
+      "modid": "mbackrooms",
+      "path": "hazmats.png",
+      "title": "Hazmats (All Types)",
+      "text_zone": "If you visited the lab, you’ve probably found a §dHazmat Suit§r, your lifesaver. With it your sanity is no longer a problem (You’ll need a full armor set)."
+    },
+    {
+      "page": "3",
+      "type": "animation",
+      "modid": "mbackrooms",
+      "paths": [
+        "craft_hazmat_helmet.png",
+        "craft_hazmat_chestplate.png",
+        "craft_hazmat_leggings.png",
+        "craft_hazmat_boots.png"
+      ],
+      "framerate": 1,
+      "title": "Default Hazmat",
+      "text_zone": "The Hazmat suit can be crafted using wool blocks.\nIt isn’t very durable, but it will help you escape madness."
+    },
+    {
+      "page": "4",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "upgrading_station",
+      "title": "Reinforced Hazmat",
+      "text_zone": "The Hazmat suit can be upgraded using an §dUpgrading §dStation§r and §aIron §aIngots§r. Far more durable than a basic Hazmat suit."
+    },
+    {
+      "page": "5",
+      "type": "animation",
+      "modid": "mbackrooms",
+      "paths": [
+        "craft_scuba_hazmat_helmet.png",
+        "craft_scuba_hazmat_chestplate.png",
+        "craft_scuba_hazmat_leggings.png",
+        "craft_scuba_hazmat_boots.png"
+      ],
+      "framerate": 1,
+      "title": "Scuba Hazmat",
+      "text_zone": "Crafting a Scuba Hazmat suit requires a §dregular §dHazmat §darmor §dpiece§r, §a1 §aIron §aIngot§r and §a1 §aPrismarine §aShard§r.\nThis suit protects you from acid burns and lets you breathe and move freely underwater."
+    }
+  ]
+}

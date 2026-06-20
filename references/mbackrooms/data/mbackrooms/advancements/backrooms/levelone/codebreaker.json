@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/computer_science",
+  "criteria": {
+    "code": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:paper_code"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Obtain the code from the base terminal"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:paper_code"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Codebreaker"
+    }
+  },
+  "requirements": [
+    [
+      "code"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

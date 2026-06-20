@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hazmat_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:hazmat_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "mbackrooms:scuba_hazmat_helmet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_hazmat_helmet",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mbackrooms:scuba_hazmat_helmet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

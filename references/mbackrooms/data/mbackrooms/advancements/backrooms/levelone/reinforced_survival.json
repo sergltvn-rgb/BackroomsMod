@@ -1,0 +1,41 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/computer_science",
+  "criteria": {
+    "reinforcement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:reinforced_hazmat_helmet",
+              "mbackrooms:reinforced_hazmat_chestplate",
+              "mbackrooms:reinforced_hazmat_leggings",
+              "mbackrooms:reinforced_hazmat_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Craft a Reinfoced Hazmat armor and survive !"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:reinforced_hazmat_helmet"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Reinforced Survival"
+    }
+  },
+  "requirements": [
+    [
+      "reinforcement"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

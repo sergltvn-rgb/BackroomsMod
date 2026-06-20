@@ -1,0 +1,41 @@
+{
+  "parent": "mbackrooms:backrooms/levelpools/at_last_peace",
+  "criteria": {
+    "scubified": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:scuba_hazmat_helmet",
+              "mbackrooms:scuba_hazmat_chestplate",
+              "mbackrooms:scuba_hazmat_leggings",
+              "mbackrooms:scuba_hazmat_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Craft a Scuba Hazmat. You're ready to dive into trouble!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:scuba_hazmat_helmet"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Scubified!"
+    }
+  },
+  "requirements": [
+    [
+      "scubified"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

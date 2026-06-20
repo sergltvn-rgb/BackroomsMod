@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mbackrooms:block/pools_wall_slab"
+    },
+    "type=double": {
+      "model": "mbackrooms:block/pools_wall"
+    },
+    "type=top": {
+      "model": "mbackrooms:block/pools_wall_slab_top"
+    }
+  }
+}

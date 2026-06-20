@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/might_be_useful",
+  "criteria": {
+    "portal_detector": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:portal_detector"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Another signal… this one feels different."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:portal_detector"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Echoes of Escape"
+    }
+  },
+  "requirements": [
+    [
+      "portal_detector"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

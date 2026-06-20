@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "mbackrooms:block/upgrading_station"},
+    "facing=east": {"model": "mbackrooms:block/upgrading_station", "y": 90},
+    "facing=south": {"model": "mbackrooms:block/upgrading_station", "y": 180},
+    "facing=west": {"model": "mbackrooms:block/upgrading_station", "y": 270}
+  }
+}

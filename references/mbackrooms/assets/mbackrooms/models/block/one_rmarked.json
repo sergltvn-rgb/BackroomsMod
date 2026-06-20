@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mbackrooms:block/one_wall",
+    "east": "mbackrooms:block/one_lmarked",
+    "north": "mbackrooms:block/one_rmarked",
+    "particle": "mbackrooms:block/one_wall",
+    "south": "mbackrooms:block/one_rmarked",
+    "up": "mbackrooms:block/one_wall",
+    "west": "mbackrooms:block/one_lmarked"
+  }
+}

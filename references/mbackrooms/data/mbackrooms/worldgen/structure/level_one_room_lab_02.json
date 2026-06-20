@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "mbackrooms:level_one_room_lab_02",
+  "size": 1,
+  "max_distance_from_center": 48,
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "terrain_adaptation": "bury",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 1
+    },
+    "max_inclusive": {
+      "absolute": 1
+    }
+  },
+  "biomes": "mbackrooms:level_one_biome",
+  "use_expansion_hack": false
+}

@@ -1,0 +1,21 @@
+{
+  "category_name": "- Level 2 -",
+  "pages": [
+    {
+      "page": "1",
+      "type": "item",
+      "modid": "minecraft",
+      "path": "bricks",
+      "title": "Level 2",
+      "text_zone": "§eLevel 2§r is quite simple, just a very long corridor that seems endless... But beware: of the entity it will attack you!"
+    },
+    {
+      "page": "2",
+      "type": "entity",
+      "modid": "mbackrooms",
+      "path": "level_two_entity",
+      "title": "Level 2 - Entity",
+      "text_zone": "This entity only chases you, so you'll need to be quick to escape. If your health is full, it won’t kill you right away, but don't let it catch you twice!"
+    }
+  ]
+}

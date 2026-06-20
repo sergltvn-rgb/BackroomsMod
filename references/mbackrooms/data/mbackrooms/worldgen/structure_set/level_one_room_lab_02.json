@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "mbackrooms:level_one_room_lab_02",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 1,
+    "spread_type": "linear",
+    "salt": 3,
+    "frequency_reduction_method": "default",
+    "frequency": 0.2
+  }
+}

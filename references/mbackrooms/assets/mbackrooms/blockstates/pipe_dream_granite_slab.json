@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mbackrooms:block/pipe_dream_granite_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/granite"
+    },
+    "type=top": {
+      "model": "mbackrooms:block/pipe_dream_granite_slab_top"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: mbackrooms
+Specification-Vendor: Meulti
+Specification-Version: 1
+Implementation-Title: Meulti's Backrooms Infinite
+Implementation-Version: 1.4.0
+Implementation-Vendor: Meulti
+Implementation-Timestamp: 2025-08-15T23:37:00+0200
+MixinConfigs: mixins.mbackrooms.json
+

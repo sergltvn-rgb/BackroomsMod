@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mbackrooms:block/g_variant_pools_floor"
+  }
+}

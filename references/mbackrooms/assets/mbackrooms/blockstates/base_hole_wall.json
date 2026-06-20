@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/base_hole_wall"
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/base_hole_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/base_hole_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/base_hole_wall",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"render_type": "minecraft:translucent",
+	"credit": "Made by Meulti",
+	"textures": {
+		"0": "mbackrooms:block/painting",
+		"particle": "mbackrooms:block/painting"
+	},
+	"elements": [
+		{
+			"from": [-16, -16, 0.25],
+			"to": [32, 32, 0.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1.25]},
+			"faces": {
+				"north": {"uv": [10.125, 1.54688, 8.125, 3.53125], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [8.125, 1.53125, 10.125, 3.53125], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"ground": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"gui": {
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"head": {
+			"translation": [0, 1.25, 1.5],
+			"scale": [0.12, 0.12, 0.12]
+		},
+		"fixed": {
+			"translation": [0, 0, 3],
+			"scale": [0.28, 0.28, 0.28]
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/abandoned_science",
+  "criteria": {
+    "hard_drive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:hard_drive"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "It's just a piece of scrap... or is it?"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:hard_drive"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Stolen Tech"
+    }
+  },
+  "requirements": [
+    [
+      "hard_drive"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "mbackrooms:backrooms/levelstairs/what_to_do_here",
+  "criteria": {
+    "level_pools_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mbackrooms:level_pools"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Or so you think."
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mbackrooms:level_one_teleporter"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "At last, Peace"
+    }
+  },
+  "requirements": [
+    [
+      "level_pools_entered"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

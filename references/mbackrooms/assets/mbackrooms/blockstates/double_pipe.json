@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "north=false,south=false,east=false,west=false": { "model": "mbackrooms:block/double_pipe_straight" },
+
+    "north=true,south=false,east=false,west=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 180 },
+    "south=true,north=false,east=false,west=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 0 },
+    "east=true,north=false,south=false,west=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 270 },
+    "west=true,north=false,south=false,east=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 90 },
+
+    "north=true,south=true,east=false,west=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 0 },
+    "east=true,west=true,north=false,south=false": { "model": "mbackrooms:block/double_pipe_straight", "y": 90 },
+
+    "north=true,east=true,south=false,west=false": { "model": "mbackrooms:block/double_pipe_turn", "y": 90 },
+    "east=true,south=true,north=false,west=false": { "model": "mbackrooms:block/double_pipe_turn", "y": 180 },
+    "south=true,west=true,north=false,east=false": { "model": "mbackrooms:block/double_pipe_turn", "y": 270 },
+    "west=true,north=true,east=false,south=false": { "model": "mbackrooms:block/double_pipe_turn", "y": 0 },
+
+    "north=true,east=true,south=true,west=false": { "model": "mbackrooms:block/double_pipe_t", "y": 180 },
+    "east=true,south=true,west=true,north=false": { "model": "mbackrooms:block/double_pipe_t", "y": 270 },
+    "south=true,west=true,north=true,east=false": { "model": "mbackrooms:block/double_pipe_t", "y": 0 },
+    "west=true,north=true,east=true,south=false": { "model": "mbackrooms:block/double_pipe_t", "y": 90 },
+
+    "north=true,east=true,south=true,west=true": { "model": "mbackrooms:block/double_pipe_cross" }
+  }
+}

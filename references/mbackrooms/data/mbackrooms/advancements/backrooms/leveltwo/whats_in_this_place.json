@@ -1,0 +1,36 @@
+{
+  "parent": "mbackrooms:backrooms/the_makeshift_home",
+  "criteria": {
+    "level_two_entered": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mbackrooms:level_two"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "I guess I have to explore this corridor!"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:bricks"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "What's this place?"
+    }
+  },
+  "requirements": [
+    [
+      "level_two_entered"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

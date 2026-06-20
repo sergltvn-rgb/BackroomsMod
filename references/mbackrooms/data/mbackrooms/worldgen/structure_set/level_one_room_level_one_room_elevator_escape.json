@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "mbackrooms:level_one_room_elevator_escape",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 3,
+    "spread_type": "linear",
+    "salt": 6,
+    "frequency_reduction_method": "default",
+    "frequency": 0.1
+  }
+}

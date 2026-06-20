@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mbackrooms:block/zero_trophy"
+    },
+    "facing=east": {
+      "model": "mbackrooms:block/zero_trophy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mbackrooms:block/zero_trophy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mbackrooms:block/zero_trophy",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "category_name": "- Level 1 -",
+  "pages": [
+    {
+      "page": "1",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "one_floor",
+      "title": "Level 1",
+      "text_zone": "In this level, you'll have to explore none of the structures you need to find are marked on any map. The only 'people' that can help you are the entities of this level."
+    },
+    {
+      "page": "2",
+      "type": "image",
+      "modid": "mbackrooms",
+      "path": "craft_indicator",
+      "title": "Level 1 - Indicator.",
+      "text_zone": "This item is really useful. You can craft one with §a1 §aIron §aIngot§r and §a1 §aRestone §aDust§r. Having this in your inventory will display a compass on the HUD that might indicate structures."
+    },
+    {
+      "page": "3",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "broken_terminal",
+      "title": "Level 1 - The First Lab.",
+      "text_zone": "First, you'll need to find the first [MBM] lab, inside which you'll discover 8 broken terminals. Break them to recover §dFloppy Disks§r."
+    },
+    {
+      "page": "4",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "terminal",
+      "title": "Level 1 - Our Base.",
+      "text_zone": "Once you have the disks, look for my base. Inside, you'll find a working terminal along with some resources. Using the terminal and the code command, you can obtain the code for the exit."
+    },
+    {
+      "page": "5",
+      "type": "item",
+      "modid": "mbackrooms",
+      "path": "exit_sign",
+      "title": "Level 1 - An Elevator?",
+      "text_zone": "Finally, the elevator. With your code, you should be able to open the door blocking it. This elevator should take you to another level."
+    }
+  ]
+}

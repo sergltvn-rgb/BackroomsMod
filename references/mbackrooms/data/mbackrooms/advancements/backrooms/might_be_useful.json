@@ -1,0 +1,38 @@
+{
+  "parent": "mbackrooms:backrooms/terminate_the_threat",
+  "criteria": {
+    "mbm_indicator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:mbm_indicator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "It could be useful for the future, craft one."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:mbm_indicator"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Might be Useful"
+    }
+  },
+  "requirements": [
+    [
+      "mbm_indicator"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

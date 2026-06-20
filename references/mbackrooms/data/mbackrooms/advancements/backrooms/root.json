@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mbackrooms:zero_bottom_wall"
+    },
+    "title": "Step into the Unknown",
+    "description": "You shouldn't be here.",
+    "background": "mbackrooms:textures/block/zero_wall.png",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "enters_backrooms": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "mbackrooms:level_zero"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "enters_backrooms"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

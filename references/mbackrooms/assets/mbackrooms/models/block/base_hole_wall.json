@@ -1,0 +1,69 @@
+{
+	"credit": "Made by Meulti",
+	"textures": {
+		"0": "mbackrooms:block/zero_level",
+		"particle": "mbackrooms:block/zero_level"
+	},
+	"elements": [
+		{
+			"name": "left",
+			"from": [0, 0, 0],
+			"to": [6, 16, 16],
+			"faces": {
+				"north": {"uv": [5, 8, 8, 16], "texture": "#0"},
+				"east": {"uv": [5, 8, 13, 16], "texture": "#0"},
+				"south": {"uv": [0, 8, 3, 16], "texture": "#0"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"up": {"uv": [5, 0, 8, 8], "texture": "#0"},
+				"down": {"uv": [5, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [10, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 3, 16], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"south": {"uv": [5, 8, 8, 16], "texture": "#0"},
+				"west": {"uv": [3, 8, 11, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 8], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 8], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_lefthand": {
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"firstperson_righthand": {
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"ground": {
+			"rotation": [0, -90, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"gui": {
+			"rotation": [15, 45, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"head": {
+			"scale": [0.82, 0.82, 0.82]
+		},
+		"fixed": {
+			"scale": [0.59, 0.59, 0.59]
+		}
+	},
+	"groups": [
+		{
+			"name": "zero_wall_hole",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"nbt": "{}",
+			"children": [0, 1]
+		}
+	]
+}

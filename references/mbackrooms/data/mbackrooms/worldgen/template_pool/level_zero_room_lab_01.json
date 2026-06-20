@@ -1,0 +1,17 @@
+{
+  "name": "mbackrooms:level_zero_room_lab_01",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "mbackrooms:level_zero/room_lab_01",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

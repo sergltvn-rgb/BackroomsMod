@@ -1,0 +1,42 @@
+{
+  "parent": "mbackrooms:backrooms/whats_in_the_box",
+  "criteria": {
+    "find_lab_01": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "mbackrooms:level_zero_room_lab_01"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "You find a lab... but no scientists, nobody."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:mbm_door"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Abandoned Science"
+    }
+  },
+  "requirements": [
+    [
+      "find_lab_01"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

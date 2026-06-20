@@ -1,0 +1,44 @@
+{
+	"credit": "Made by Meulti",
+	"textures": {
+		"0": "mbackrooms:block/garage_door",
+		"particle": "mbackrooms:block/garage_door"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 6.5],
+			"to": [16, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 12, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 8, 0.75, 12], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [0, 8, 0.75, 12], "texture": "#0"},
+				"up": {"uv": [5.5, 8.75, 1.5, 8], "texture": "#0"},
+				"down": {"uv": [5.5, 8, 1.5, 8.75], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.28, 0.28, 0.28]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.51, 0.51, 0.51]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"gui": {
+			"rotation": [35, 135, 0],
+			"scale": [0.67, 0.67, 0.67]
+		}
+	}
+}

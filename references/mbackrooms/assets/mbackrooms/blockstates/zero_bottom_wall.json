@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "mbackrooms:block/zero_bottom_wall", "weight": 512 },
+      { "model": "mbackrooms:block/a_variant_zero_bottom_wall", "weight": 8}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,activated=true": { "model": "mbackrooms:block/armor_crate_open", "y": 90},
+    "facing=north,activated=false": { "model": "mbackrooms:block/armor_crate", "y": 90},
+
+    "facing=south,activated=true": { "model": "mbackrooms:block/armor_crate_open", "y": 270},
+    "facing=south,activated=false": { "model": "mbackrooms:block/armor_crate", "y": 270},
+
+    "facing=west,activated=true": { "model": "mbackrooms:block/armor_crate_open", "y": 0},
+    "facing=west,activated=false": { "model": "mbackrooms:block/armor_crate", "y": 0},
+
+    "facing=east,activated=true": { "model": "mbackrooms:block/armor_crate_open", "y": 180},
+    "facing=east,activated=false": { "model": "mbackrooms:block/armor_crate", "y": 180}
+  }
+}

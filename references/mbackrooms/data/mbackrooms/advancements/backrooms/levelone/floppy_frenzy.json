@@ -1,0 +1,39 @@
+{
+  "parent": "mbackrooms:backrooms/levelone/broken_signals",
+  "criteria": {
+    "floppy_disk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mbackrooms:floppy_disk"
+            ],
+            "nbt": "{Count:8}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "text": "Collect 8 floppy disks from the terminals"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mbackrooms:floppy_disk"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Floppy Frenzy"
+    }
+  },
+  "requirements": [
+    [
+      "floppy_disk"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
